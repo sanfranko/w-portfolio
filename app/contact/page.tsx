@@ -1,12 +1,12 @@
 "use client";
-import { Github, Send, instagram } from "lucide-react";
+import { Github, Send, Instagram } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <instagram size={20} />,
+		icon: <Instagram size={20} />,
 		href: "https://www.instagram.com/sanfranko.duo/",
 		label: "Instagram",
 		handle: "@sanfranko.duo",
