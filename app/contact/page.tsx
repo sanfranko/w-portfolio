@@ -1,5 +1,5 @@
 "use client";
-import { Github, send, instagram } from "lucide-react";
+import { Github, Send, instagram } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -18,7 +18,7 @@ const socials = [
 		handle: "sanfranko",
 	},
 	{
-		icon: <send size={20} />,
+		icon: <Send size={20} />,
 		href: "https://t.me/aIexfranko",
 		label: "Telegram",
 		handle: "@aIexfranko",
