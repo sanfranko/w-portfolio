@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     default: "sanfranko",
     template: "%s | sanfranko.vercel.app",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "site from Alex Franko",
   openGraph: {
-    title: "sanfranko",
+    title: "sanfranko — 18 yo talent",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
+      "site from Alex Franko",
     url: "https://sanfranko.vercel.app",
     siteName: "sanfranko",
     images: [
