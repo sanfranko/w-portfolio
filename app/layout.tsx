@@ -6,7 +6,7 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "sanfranko",
+    default: "sanfranko — 18 yo talent",
     template: "%s | sanfranko.vercel.app",
   },
   description: "site from Alex Franko",
