@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "sanfranko — 18 yo talent",
     description:
-      "Rsume & Portfolio for sanfranko",
+      "Resume & Portfolio for sanfranko",
     url: "https://sanfranko.vercel.app",
     siteName: "sanfranko",
     images: [
