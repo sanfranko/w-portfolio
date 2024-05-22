@@ -9,19 +9,19 @@ const socials = [
 		icon: <Instagram size={20} />,
 		href: "https://www.instagram.com/sanfranko666/",
 		label: "Instagram",
-		handle: "@sanfranko.duo",
+		handle: "@sanfranko666",
 	},
 	{
 		icon: <Github size={20} />,
 		href: "https://github.com/sanfranko",
 		label: "Github",
-		handle: "sanfranko",
+		handle: "@sanfranko",
 	},
 	{
 		icon: <Send size={20} />,
-		href: "tg://resolve?domain=frankobest",
+		href: "https://t.me/frankobest",
 		label: "Telegram",
-		handle: "@aIexfranko",
+		handle: "@frankobest",
 	},
 ];
 
