@@ -67,7 +67,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 								views,
 							)}
 						</span>
-						<Link target="_blank" href="https://www.instagram.com/sanfranko.duo/">
+						<Link target="_blank" href="https://www.instagram.com/sanfranko666/">
 							<Instagram
 								className={`w-6 h-6 duration-200 hover:font-medium ${
 									isIntersecting
