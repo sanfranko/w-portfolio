@@ -7,7 +7,7 @@ import { Card } from "../components/card";
 const socials = [
 	{
 		icon: <Instagram size={20} />,
-		href: "https://www.instagram.com/sanfranko.duo/",
+		href: "https://www.instagram.com/sanfranko666/",
 		label: "Instagram",
 		handle: "@sanfranko.duo",
 	},
@@ -19,7 +19,7 @@ const socials = [
 	},
 	{
 		icon: <Send size={20} />,
-		href: "https://t.me/aIexfranko",
+		href: "tg://resolve?domain=frankobest",
 		label: "Telegram",
 		handle: "@aIexfranko",
 	},
