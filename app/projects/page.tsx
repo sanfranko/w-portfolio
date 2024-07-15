@@ -9,8 +9,22 @@ import { Eye } from "lucide-react";
 
 const redis = Redis.fromEnv();
 
+import { kv } from "@vercel/kv";
+
+export default async function Cart({ params }: { params: { user: string } }) {
+  const cart = await kv.get<{ id: string; quantity: number }[]>(params.user);
+  return (
+    <div>
+      {cart?.map((item) => (
+        <div key={item.id}>
+          {item.id} - {item.quantity}
+        </div>
+      ))}
+    </div>
+  );
+}
+
 export const revalidate = 60;
-export const maxDuration = 60;
 export default async function ProjectsPage() {
   const views = (
     await redis.mget<number[]>(
