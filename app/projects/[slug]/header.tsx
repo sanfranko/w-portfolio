@@ -3,6 +3,8 @@ import { ArrowLeft, Eye, Github, Instagram } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 
+export const maxDuration = 300;
+
 type Props = {
 	project: {
 		url?: string;
