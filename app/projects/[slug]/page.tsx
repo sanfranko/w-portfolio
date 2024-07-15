@@ -6,7 +6,6 @@ import "./mdx.css";
 import { ReportView } from "./view";
 import { Redis } from "@upstash/redis";
 
-export const maxDuration = 60;
 export const revalidate = 60;
 
 type Props = {
