@@ -6,16 +6,16 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "sanfranko — 18 yo talent",
+    default: "Aleksandar — 18 yo talent",
     template: "%s | sanfranko.vercel.app",
   },
   description: "Alex Franko",
   openGraph: {
-    title: "sanfranko — 18 yo talent",
+    title: "Aleksandar — 18 yo talent",
     description:
       "Resume & Portfolio for sanfranko",
     url: "https://sanfranko.vercel.app",
-    siteName: "sanfranko",
+    siteName: "Aleksandar",
     images: [
       {
         url: "https://i.imgur.com/BxEkidh.png",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "AlexFranko",
+    title: "Aleksandar",
     card: "summary_large_image",
   },
   icons: {
