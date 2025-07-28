@@ -22,7 +22,7 @@ export default async function Cart({ params }: { params: { user: string } }) {
   );
 }
 
-export default function Home() {
+export function Home() {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
       <nav className="my-16 animate-fade-in">
