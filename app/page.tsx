@@ -1,3 +1,4 @@
+// app/page.tsx
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
@@ -6,21 +7,6 @@ const navigation = [
   { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
 ];
-
-import { kv } from "@vercel/kv";
-
-export default async function Cart({ params }: { params: { user: string } }) {
-  const cart = await kv.get<{ id: string; quantity: number }[]>(params.user);
-  return (
-    <div>
-      {cart?.map((item) => (
-        <div key={item.id}>
-          {item.id} - {item.quantity}
-        </div>
-      ))}
-    </div>
-  );
-}
 
 export default function Home() {
   return (
@@ -46,7 +32,6 @@ export default function Home() {
       <h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
         Aleksandar
       </h1>
-
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 ">
@@ -55,5 +40,4 @@ export default function Home() {
       </div>
     </div>
   );
-
 }
