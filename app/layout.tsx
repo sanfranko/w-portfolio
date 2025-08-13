@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     default: "Aleksandar — 18 yo talent",
     template: "%s | sanfranko.vercel.app",
   },
-  description: "Alex Franko",
+  description: "Aleksandar",
   openGraph: {
     title: "Aleksandar — 18 yo talent",
     description:
