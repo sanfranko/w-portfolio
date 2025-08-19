@@ -19,9 +19,9 @@ const socials = [
 	},
 	{
 		icon: <Send size={20} />,
-		href: "https://t.me/frankoleet",
+		href: "https://t.me/frankobest",
 		label: "Telegram",
-		handle: "@frankoleet",
+		handle: "@frankobest",
 	},
 ];
 
